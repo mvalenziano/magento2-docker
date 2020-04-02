@@ -49,7 +49,6 @@ RUN apt-get update -y && \
   	bcmath \
   	intl \
   	mbstring \
-  	mcrypt \
   	pdo_mysql \
   	soap \
   	xsl \
