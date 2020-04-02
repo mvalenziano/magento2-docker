@@ -1,6 +1,6 @@
-FROM php:7.1-apache
+FROM php:7.2-apache
 
-MAINTAINER Rafael Corrêa Gomes <rafaelcgstz@gmail.com>
+MAINTAINER Marco Valenziano <valenzianomarco@gmail.com>
 
 ENV XDEBUG_PORT 9000
 
@@ -22,7 +22,8 @@ RUN apt-get update \
 	apt-utils \
 	gnupg \
 	redis-tools \
-	mysql-client \
+	default-mysql-client \
+	default-libmysqlclient-dev \
 	git \
 	vim \
 	wget \
